@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Socket.Serverice", "Socket.Serverice\Socket.Serverice.csproj", "{30BF12B5-77E6-4ABC-8640-DF3250EF0875}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Socket.Serverice", "Socket.Serverice\Socket.Serverice.csproj", "{30BF12B5-77E6-4ABC-8640-DF3250EF0875}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Socket.Model", "Socket.Model\Socket.Model.csproj", "{1ADCFF09-25F5-4F0A-9290-AE140F022ECE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Socket.Model", "Socket.Model\Socket.Model.csproj", "{1ADCFF09-25F5-4F0A-9290-AE140F022ECE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sockets.Applictions", "Sockets.Applictions\Sockets.Applictions.csproj", "{55A9C354-E603-427B-8A67-FB4895DFE104}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sockets.Applictions", "Sockets.Applictions\Sockets.Applictions.csproj", "{32D56815-E90E-46F3-B692-EBF417D5A962}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{1ADCFF09-25F5-4F0A-9290-AE140F022ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ADCFF09-25F5-4F0A-9290-AE140F022ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ADCFF09-25F5-4F0A-9290-AE140F022ECE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{55A9C354-E603-427B-8A67-FB4895DFE104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{55A9C354-E603-427B-8A67-FB4895DFE104}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{55A9C354-E603-427B-8A67-FB4895DFE104}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{55A9C354-E603-427B-8A67-FB4895DFE104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D56815-E90E-46F3-B692-EBF417D5A962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D56815-E90E-46F3-B692-EBF417D5A962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D56815-E90E-46F3-B692-EBF417D5A962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D56815-E90E-46F3-B692-EBF417D5A962}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

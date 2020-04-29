@@ -10,14 +10,28 @@ namespace Socket.Model
     /// <summary>
     /// 自定义Socket对象
     /// </summary>
-    public class SocketsModel
+    public class Sockets
     {
         /// <summary>
-        /// 
+        /// 空构造
         /// </summary>
-        public SocketsModel() 
+        public Sockets() 
         {
         
+        }
+
+        /// <summary>
+        /// 创建Sockets对象
+        /// </summary>
+        /// <param name="ip">Ip地址</param>
+        /// <param name="client">TcpClient</param>
+        /// <param name="ns">承载客户端Socket的网络流</param
+        public Sockets(IPEndPoint ip, TcpClient client, NetworkStream ns) 
+        {
+
+            Ip = ip;
+            Client = client;
+            nStream = ns;
         }
 
         /// <summary>
@@ -85,7 +99,7 @@ namespace Socket.Model
         /// <param name="ip">Ip地址</param>
         /// <param name="client">TcpClient</param>
         /// <param name="ns">承载客户端Socket的网络流</param>
-        public SocketsModel(string name, string pass, IPEndPoint ip, TcpClient client, NetworkStream ns) 
+        public Sockets(string name, string pass, IPEndPoint ip, TcpClient client, NetworkStream ns) 
         {
             UserName = name;
             Password = pass;
@@ -99,5 +113,5 @@ namespace Socket.Model
     /// 委托传消息
     /// </summary>
     /// <param name="socketsModel"></param>
-    public delegate void PushSockets(SocketsModel socketsModel);
+    public delegate void PushSockets(Sockets socketsModel);
 }
