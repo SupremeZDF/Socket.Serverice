@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Socket.Model\Socket.Model.csproj" />
-    <ProjectReference Include="..\Sockets.Applictions\Sockets.Applictions.csproj" />
   </ItemGroup>
 
 
